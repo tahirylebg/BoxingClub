@@ -495,8 +495,8 @@ h1, h2, h3, h4 {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  width: 10px;
-  height: 10px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: var(--card-hover);
   border: 2px solid var(--border);
