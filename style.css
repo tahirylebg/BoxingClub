@@ -392,6 +392,15 @@ h1, h2, h3, h4 {
   overflow: hidden;
   border: 1px solid var(--border);
   transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.article-card > a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .article-card:hover {
@@ -431,6 +440,9 @@ h1, h2, h3, h4 {
 
 .article-card-content {
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .article-card-date {
@@ -459,6 +471,7 @@ h1, h2, h3, h4 {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  flex-grow: 1;
 }
 
 .article-card-link {
