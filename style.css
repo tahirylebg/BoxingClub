@@ -849,6 +849,12 @@ h1, h2, h3, h4 {
   margin-bottom: 0.5rem;
 }
 
+.stats-summary {
+  font-size: 0.95rem;
+  color: var(--muted-foreground);
+  margin: 0 0 0.75rem 0;
+}
+
 .stats-table th,
 .stats-table td {
   padding: 1rem;
