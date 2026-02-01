@@ -839,6 +839,16 @@ h1, h2, h3, h4 {
   border-collapse: collapse;
 }
 
+.stats-table table caption.stats-caption {
+  caption-side: top;
+  display: table-caption;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
 .stats-table th,
 .stats-table td {
   padding: 1rem;
