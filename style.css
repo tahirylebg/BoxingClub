@@ -430,8 +430,8 @@ h1, h2, h3, h4 {
   top: 1rem;
   left: 1rem;
   padding: 0.25rem 0.75rem;
-  background: var(--primary);
-  color: var(--background);
+  background: var(--primary) !important;
+  color: var(--background) !important;
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
