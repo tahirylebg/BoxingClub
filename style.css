@@ -677,11 +677,12 @@ h1, h2, h3, h4 {
 
 .cta .btn-primary {
   background: white;
-  color: var(--primary);
+  color: var(--background);
 }
 
 .cta .btn-primary:hover {
   background: var(--foreground);
+  color: var(--background);
 }
 
 /* ===== FOOTER ===== */
