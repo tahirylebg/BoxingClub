@@ -1,5 +1,4 @@
 # robots.txt - L'Uppercut Toulousain
-# Règle 219 - Instructions pour les robots d'indexation
 
 User-agent: *
 Allow: /
