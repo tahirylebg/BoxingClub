@@ -18,7 +18,7 @@
     <a href="#main-nav" class="skip-link">Aller au menu principal</a>
   </nav>
   <!-- Header -->
-  <header class="header">
+  <header class="header" aria-label="En-tête du site">
     <div class="container">
       <div class="header-inner">
         <a href="index.html" class="logo">
@@ -26,7 +26,7 @@
           <span class="logo-text">L'UPPERCUT <span>TOULOUSAIN</span></span>
         </a>
         
-        <nav class="nav" id="main-nav">
+        <nav class="nav" id="main-nav" aria-label="Menu principal">
           <ul class="nav-list">
             <li><a href="index.html" class="nav-link">Accueil</a></li>
             <li><a href="article.html" class="nav-link active">Actualités</a></li>
@@ -80,9 +80,11 @@
   </section>
 
   <!-- Article Content -->
-  <main class="article-content" id="main-content">
+  <main class="article-content" id="main-content" tabindex="-1" aria-label="Contenu principal">
     <div class="container">
       <div class="article-body">
+        <article>
+        <h2 class="visually-hidden">Victoire éclatante de Marc Dubois au championnat régional</h2>
         <p class="article-intro">
           Notre boxeur Marc Dubois a remporté une victoire spectaculaire par KO technique au 3ème round 
           face à son adversaire Antoine Mercier lors du championnat régional d'Occitanie qui s'est tenu 
@@ -133,39 +135,39 @@
             <caption class="stats-caption">Statistiques du combat</caption>
             <thead>
               <tr>
-                <th>Statistique</th>
-                <th>Marc Dubois</th>
-                <th>Antoine Mercier</th>
+                <th scope="col">Statistique</th>
+                <th scope="col">Marc Dubois</th>
+                <th scope="col">Antoine Mercier</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Coups portés</td>
+                <th scope="row">Coups portés</th>
                 <td>87</td>
                 <td>42</td>
               </tr>
               <tr>
-                <td>Précision</td>
+                <th scope="row">Précision</th>
                 <td>68%</td>
                 <td>45%</td>
               </tr>
               <tr>
-                <td>Jabs</td>
+                <th scope="row">Jabs</th>
                 <td>45</td>
                 <td>28</td>
               </tr>
               <tr>
-                <td>Coups de puissance</td>
+                <th scope="row">Coups de puissance</th>
                 <td>42</td>
                 <td>14</td>
               </tr>
               <tr>
-                <td>Knockdowns</td>
+                <th scope="row">Knockdowns</th>
                 <td>1</td>
                 <td>0</td>
               </tr>
               <tr>
-                <td>Résultat</td>
+                <th scope="row">Résultat</th>
                 <td><span class="winner-badge">Vainqueur KO</span></td>
                 <td>Défaite</td>
               </tr>
@@ -185,6 +187,7 @@
             et lui souhaite bonne chance pour la suite de sa saison !
           </p>
         </div>
+        </article>
 
         <!-- Comments Section -->
         <section id="comments" class="comments" tabindex="-1">
@@ -235,7 +238,7 @@
   </main>
 
   <!-- Footer -->
-  <footer class="footer">
+  <footer class="footer" aria-label="Pied de page">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
