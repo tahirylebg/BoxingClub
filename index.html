@@ -12,7 +12,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a href="#maincontent" class="skip-link">Aller au contenu</a>
+  <nav class="skip-links" aria-label="Liens d'accès rapide">
+    <a href="#maincontent" class="skip-link">Aller au contenu principal</a>
+    <a href="#main-nav" class="skip-link">Aller au menu principal</a>
+  </nav>
   <!-- Header -->
   <header class="header">
     <div class="container">
@@ -23,7 +26,7 @@
           <span class="logo-text">L'UPPERCUT <span>TOULOUSAIN</span></span>
         </a>
         
-        <nav class="nav">
+        <nav class="nav" id="main-nav">
           <ul class="nav-list">
             <li><a href="index.html" class="nav-link active">Accueil</a></li>
             <li><a href="article.html" class="nav-link">Actualités</a></li>
@@ -123,7 +126,7 @@
               <span class="article-card-badge">Combat</span>
             </div>
             <div class="article-card-content">
-              <div class="article-card-date">15 Janvier 2026</div>
+              <time class="article-card-date" datetime="2026-01-15">15 Janvier 2026</time>
               <h3 class="article-card-title">Victoire éclatante de Marc Dubois au championnat régional</h3>
               <p class="article-card-excerpt">Notre boxeur Marc Dubois a remporté une victoire par KO technique au 3ème round face à son adversaire lors du championnat régional d'Occitanie.</p>
               <div class="article-card-actions">
@@ -152,7 +155,7 @@
               <span class="article-card-badge">Stage</span>
             </div>
             <div class="article-card-content">
-              <div class="article-card-date">10 Janvier 2026</div>
+              <time class="article-card-date" datetime="2026-01-10">10 Janvier 2026</time>
               <h3 class="article-card-title">Stage intensif de préparation physique</h3>
               <p class="article-card-excerpt">Un stage de 3 jours pour préparer la saison avec un programme de renforcement musculaire adapté.</p>
               <div class="article-card-actions">
@@ -182,7 +185,7 @@
               <span class="article-card-badge">Club</span>
             </div>
             <div class="article-card-content">
-              <div class="article-card-date">5 Janvier 2026</div>
+              <time class="article-card-date" datetime="2026-01-05">5 Janvier 2026</time>
               <h3 class="article-card-title">Bienvenue à notre nouveau coach Thomas Roux</h3>
               <p class="article-card-excerpt">Ancien champion de France, Thomas rejoint notre équipe d'entraîneurs pour la section compétition.</p>
               <div class="article-card-actions">
@@ -211,7 +214,7 @@
               <span class="article-card-badge">Événement</span>
             </div>
             <div class="article-card-content">
-              <div class="article-card-date">28 Décembre 2025</div>
+              <time class="article-card-date" datetime="2025-12-28">28 Décembre 2025</time>
               <h3 class="article-card-title">Tournoi inter-clubs le 15 février</h3>
               <p class="article-card-excerpt">Notre club accueillera le prochain tournoi inter-clubs avec 8 équipes participantes de toute la région.</p>
               <div class="article-card-actions">
@@ -240,7 +243,7 @@
               <span class="article-card-badge">Cours</span>
             </div>
             <div class="article-card-content">
-              <div class="article-card-date">20 Janvier 2026</div>
+              <time class="article-card-date" datetime="2026-01-20">20 Janvier 2026</time>
               <h3 class="article-card-title">Cours collectif femmes - Octobre Rose</h3>
               <p class="article-card-excerpt">Un programme spécial dédié aux femmes, par des femmes. Rejoignez nos sessions de boxe collective pour la sensibilisation au dépistage.</p>
               <div class="article-card-actions">
@@ -315,7 +318,7 @@
             <li><a href="#">Horaires</a></li>
           </ul>
         </div>
-        
+
         <div class="footer-links">
           <h4>Services</h4>
           <ul>

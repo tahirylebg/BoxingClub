@@ -13,6 +13,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav class="skip-links" aria-label="Liens d'accès rapide">
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+    <a href="#main-nav" class="skip-link">Aller au menu principal</a>
+  </nav>
   <!-- Header -->
   <header class="header">
     <div class="container">
@@ -22,7 +26,7 @@
           <span class="logo-text">L'UPPERCUT <span>TOULOUSAIN</span></span>
         </a>
         
-        <nav class="nav">
+        <nav class="nav" id="main-nav">
           <ul class="nav-list">
             <li><a href="index.html" class="nav-link">Accueil</a></li>
             <li><a href="article.html" class="nav-link active">Actualités</a></li>
@@ -68,7 +72,7 @@
       <div class="article-hero-content">
         <div class="article-meta">
           <span class="article-category">Combat</span>
-          <span class="article-date">15 Janvier 2026</span>
+          <time class="article-date" datetime="2026-01-15">15 Janvier 2026</time>
         </div>
         <h1 class="article-title">Victoire éclatante de Marc Dubois au championnat régional</h1>
       </div>
@@ -76,7 +80,7 @@
   </section>
 
   <!-- Article Content -->
-  <main class="article-content">
+  <main class="article-content" id="main-content">
     <div class="container">
       <div class="article-body">
         <p class="article-intro">
@@ -268,7 +272,7 @@
             <li><a href="#">Horaires</a></li>
           </ul>
         </div>
-        
+
         <div class="footer-links">
           <h4>Services</h4>
           <ul>

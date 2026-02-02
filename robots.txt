@@ -1,0 +1,12 @@
+# robots.txt - L'Uppercut Toulousain
+# Règle 219 - Instructions pour les robots d'indexation
+
+User-agent: *
+Allow: /
+
+# Pages à indexer
+Allow: /index.html
+Allow: /article.html
+
+# Sitemap
+Sitemap: https://www.uppercut-toulousain.fr/sitemap.xml

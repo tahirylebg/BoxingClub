@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav class="skip-links" aria-label="Liens d'accès rapide">
+    <a href="#login-form" class="skip-link">Aller au formulaire de connexion</a>
+  </nav>
   <div class="login-page">
     <div class="login-bg">
       <img src="images/club.jpg" alt="">
@@ -27,7 +30,7 @@
         <p>Connectez-vous pour accéder à votre compte</p>
       </div>
 
-      <form class="login-form" onsubmit="return false;">
+      <form class="login-form" id="login-form" onsubmit="return false;">
         <div class="form-group">
           <label class="form-label" for="email">Adresse email</label>
           <div class="form-input-wrapper">
